@@ -1,11 +1,12 @@
 {
-  "name": "flickrSearch",
-  "version": "1.0.0",
-  "devDependencies": {
-    "grunt": "latest",
-    "grunt-contrib-compass": "latest",
-    "grunt-contrib-watch": "latest",
-    "grunt-contrib-uglify": "latest",
-    "matchdep": "latest"
-  }
+    "name": "flickrSearch",
+    "version": "1.0.0",
+    "devDependencies": {
+        "grunt": "latest",
+        "grunt-contrib-compass": "latest",
+        "grunt-contrib-watch": "latest",
+        "grunt-contrib-uglify": "latest",
+        "grunt-express": "latest",
+        "matchdep": "latest"
+    }
 }
