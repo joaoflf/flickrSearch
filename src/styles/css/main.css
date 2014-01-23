@@ -2,4 +2,34 @@
 body {
   width: 100%;
   height: 100%;
+  background: black;
+}
+
+/* line 7, ../sass/main.scss */
+.thumbnailContainer {
+  width: 100%;
+  padding: 5%;
+}
+/* line 11, ../sass/main.scss */
+.thumbnailContainer > .thumbnail {
+  width: 20%;
+  margin: 5%;
+}
+
+/* line 17, ../sass/main.scss */
+.paginationControl {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+/* line 22, ../sass/main.scss */
+.paginationControl .pageLink {
+  margin: 2px;
+  color: white;
+  font-family: Arial;
+}
+/* line 27, ../sass/main.scss */
+.paginationControl .pageLink:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
